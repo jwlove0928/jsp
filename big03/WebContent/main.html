@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+		<head>	<!-- 설정값은 모두 head안에 설정한다. -->
+			<meta charset="EUC-KR">
+			<title>Insert title here</title>
+			<link rel= "stylesheet" type ="text/css" href="style.css">
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> <!-- CDN방식 -->
+			<script type="text/javascript">
+				alert("환영합니다. JQUERY창입니다.") /* ex)웹상 로그인 성공시 성공했다고 뜨는 창 */
+				$(function() { //body부분을 읽고나서, 처리해주세요. 라는 기능을 가진 함수
+					var h1Text = $("h1").text() //어떤 변수든 선언,타입 상관없이 사용가능(타입은 무조간 var)
+					console.log(h1Text)
+				});
+			</script>
+		</head>
+		<body>
+			<h1>오늘은 수요일.</h1>
+			<p>오늘은 일주일 중에 가운데 날인 수요일 입니다</p>
+		</body>
+	</html>

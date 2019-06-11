@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Insert title here</title>
+		<style type="text/css">
+			p {
+				color: red; 
+				background: lime;
+				font: 20px bold;
+			}
+			li{
+				color: #23fff0;	/* colorpicker싸이트를 통해 
+								#ba1b1b 입력시 해당색 사용가능 */
+				font: 30px bold;
+			}
+			#li1{
+				background: green;
+			}
+			#li2{			/* id사용시에는 # */
+				background: #ff7022;
+			}
+			.p1{			/* class사용시에는 . */
+				border: 4px dotted #820000;
+			}
+		</style>
+	</head>
+		<body>
+			<p class="p1">나는  p태그..</p>
+			<ul>
+				<li id="li1">스타일 쉬트-1</li> <!-- css사용을 위해 id값 부여 -->
+				<li id="li2" class="p1">스타일 쉬트-2</li>
+			</ul>
+		</body>
+</html>
