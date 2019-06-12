@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Insert title here</title>
+		<script type="text/javascript">
+			function check() {
+				var data = document.getElementById("name");
+				var data1 = document.getElementById("tel");
+				
+				var result1 = data.value;
+				var result2 = data1.value;
+				location.href="test1.jsp?name="+result1+"&tel="+result2;
+			}
+		</script>
+	</head>
+		<body>
+			<h1>정보입력</h1>
+			이름 :  <input type="text" name="name" id="name"><br>
+			휴대폰 번호 : <input type="text" name="tel" id="tel"><br>
+			<button type="button" onclick="check()">정보입력</button>
+		</body>
+</html>

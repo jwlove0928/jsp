@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Insert title here</title>
+		<script type="text/javascript">
+			function result(weight, height, name) {
+				var num = parseInt((height-100)*0.9);
+				if(weight > num){
+					alert(name + "님은 과체중입니다.");
+				}else if(weight <= num){
+					alert(name + "님의 몸무게는 적정몸무게입니다.");
+				}
+			}
+			inputweight = parseInt(prompt("몸무게를 입력하세요 : "));
+			inputheight = parseInt(prompt("키를 입력하세요 : "));
+			name = prompt("이름을 입력하세요 : ");
+			
+			result(inputweight, inputheight, name);
+		</script>
+	</head>
+		<body>
+		
+		</body>
+</html>

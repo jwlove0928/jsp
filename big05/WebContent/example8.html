@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Insert title here</title>
+		<script type="text/javascript">
+			id = prompt("id를 입력하세요 : ");
+			pw = parseInt(prompt("id를 입력하세요 : "));
+			
+			adminid = "kjw";
+			adminpw = parseInt("1234");
+			userid = "kim";
+			userpw = parseInt("4567");
+			
+			function collect(id, pw) {
+				if(id == adminid && pw == adminpw){
+					location.href="manager.html";
+				}else if(id == userid && pw == userpw){
+					location.href="jsTest3.html";
+				}
+			}
+			collect(id,pw)
+		</script>
+	</head>
+		<body>
+		
+		</body>
+</html>

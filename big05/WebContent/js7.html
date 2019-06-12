@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Insert title here</title>
+		<script type="text/javascript">
+			function call(total, count) {
+				var price = total/count;
+				call2(parseInt(price));
+			}
+			function call2(rep) { //최종금액계산
+				if(rep >= 3000){
+					alert("당신이 지불해야 할 금액은 " + (rep-3000));
+				}
+			}
+			call(10000,3);
+		</script>
+	</head>
+		<body>
+	
+		</body>
+</html>

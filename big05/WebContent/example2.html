@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Insert title here</title>
+		<script type="text/javascript">
+		var first = 0;
+		var plus = 0;
+		alert("초기값은 " + first);
+			function result() {
+				plus = parseInt(first)+1;
+				first++;
+				alert("증가 : " + plus);
+			}
+			function result1() {
+				minus = parseInt(first)-1;
+				first--;
+				alert("감소 : " + minus);
+			}
+			function result2() {
+				reset = 0;
+				alert("초기화 : " + reset);
+			}
+		</script>
+	</head>
+		<body>
+			<button type="button" onclick="result()">증가버튼</button>
+			<button type="button" onclick="result1()">감소버튼</button>
+			<button type="button" onclick="result2()">초기화</button>
+		</body>
+</html>

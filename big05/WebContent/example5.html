@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Insert title here</title>
+		<script type="text/javascript">
+			date = new Date();
+			var hours = parseInt(date.getHours());
+			function time() {
+				if(hours >=7 && hours <12){
+					alert("지금 시각은" + hours + "이고, " + "굿모닝입니다.")
+				}else if(hours >=12 && hours <16){
+					alert("지금 시각은" + hours + "이고, " + "굿에프터눈입니다.")
+				}
+				if(hours >=16 && hours <24){
+					alert("지금 시각은" + hours + "이고, " + "굿이브닝입니다.")
+				}
+			}
+			time();
+		</script>
+	</head>
+		<body>
+		
+		</body>
+</html>
